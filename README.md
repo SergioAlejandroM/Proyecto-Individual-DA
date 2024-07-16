@@ -44,3 +44,43 @@ Cada hoja de datos se cargó utilizando pandas para su exploración y análisis.
 ## Resultados y Recomendaciones
 Los resultados del EDA proporcionan una comprensión profunda del estado actual de los servicios de telecomunicaciones en diferentes regiones de Argentina. Esto servirá como base para futuros análisis y decisiones estratégicas en la mejora y expansión de la infraestructura de comunicaciones.cs
 
+# Reporte de Análisis del Dashboard
+## Introducción
+Este reporte detalla el análisis realizado sobre el sector de telecomunicaciones en Argentina, enfocado principalmente en el acceso a internet. El análisis se llevó a cabo mediante la creación de un dashboard interactivo en Power BI, el cual permite explorar los datos en detalle y evaluar los principales indicadores de rendimiento (KPIs) propuestos.
+
+## Analisis exploratorio de datos (EDA)
+Antes de la creación del dashboard, se realizó un análisis exploratorio de datos (EDA) para comprender mejor la estructura de los datos y las relaciones entre las variables. Este proceso incluyó:
+
+- Búsqueda de valores faltantes: Identificación y tratamiento de valores nulos en el conjunto de datos.
+- Registros duplicados: Identificación y eliminación de registros duplicados para asegurar la integridad de los datos.
+- Correcion de sintaxis: Identificación y transformacion de datos que impedian la carga del dataset generando error.
+
+## Descripción del Dashboard
+El dashboard interactivo desarrollado en Power BI incluye varias visualizaciones clave que permiten analizar el comportamiento del sector de telecomunicaciones en Argentina. Las principales secciones del dashboard son:
+
+1. Acceso a Internet por Provincia
+Esta sección muestra la tasa de acceso a internet por cada 100 hogares en cada provincia, permitiendo comparar la penetración del servicio en diferentes regiones. Los usuarios pueden filtrar los datos por año y trimestre para observar tendencias temporales.
+
+2. Comparación de Tecnologias
+Aquí se presenta una comparación entre los diferentes tecnologias. Los gráficos permiten identificar patrones de uso y preferencias entre los usuarios.
+
+3. KPI de Acceso a Internet
+El KPI principal propuesto es el aumento del 2% en el acceso a internet por cada 100 hogares para el próximo trimestre. La fórmula utilizada para calcular este KPI es:
+
+<div align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{white}\text{KPI}=\left(\frac{\text{Nuevo%20acceso}-\text{Acceso%20actual}}{\text{Acceso%20actual}}\right)\times%20100" />
+</div>
+
+    En el análisis realizado, el KPI resultó ser de 1.75%, indicando que el aumento en el acceso a internet no alcanzó el objetivo del 2%.
+
+4. Tendencias Temporales
+Gráficos de líneas que muestran la evolución del acceso a internet a lo largo del tiempo. Estos gráficos ayudan a identificar tendencias y patrones estacionales.
+
+## Análisis y Conclusiones
+- Acceso a Internet: Se observó que el acceso a internet ha tenido un crecimiento constante en la mayoría de las provincias, aunque no se alcanzó el objetivo del 2% de aumento trimestral, con un KPI de 1.75%. Esto sugiere la necesidad de estrategias adicionales para impulsar el acceso en las áreas menos servidas.
+Comparación de Tecnologias:  Cable Modem sigue siendo la tecnologia más utilizada, seguida por Fibra optica. El Cable Modem ha mostrado una tendencia decreciente a diferencia de Fibre Optica.
+- Oportunidades de Crecimiento: Provincias con menor uso de Fibra Optica representan oportunidades de expansión para la empresa. Estrategias focalizadas en estas regiones podrían contribuir a mejorar el KPI en futuros trimestres.
+## Recomendaciones
+- Estrategias de Expansión: Desarrollar campañas de promoción y subsidios en provincias con baja disponibilidad de Fibra Optica para incrementar la adopción del servicio.
+- Mejora de Infraestructura: Invertir en infraestructura para mejorar la calidad y velocidad del servicio de internet, lo cual podría aumentar la satisfacción del cliente y la tasa de adopción.
+- Monitoreo Continuo: Continuar monitoreando los KPIs y ajustar las estrategias en función de los resultados obtenidos para asegurar el cumplimiento de los objetivos de crecimiento.
